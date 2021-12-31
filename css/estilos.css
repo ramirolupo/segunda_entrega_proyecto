@@ -176,6 +176,10 @@
   height: 9em !important;
 }
 
+.mainGaleria {
+  height: 52em;
+}
+
 .mainContacto {
   height: 42em;
 }
