@@ -1,0 +1,29 @@
+/* Modifico el navbar  */
+
+.navbar {
+    background-color: $colorPrincipal !important;
+    /* height: 70px; */
+}
+
+.nav-link {
+    color: $colorSecundario !important;
+}
+
+.navbar-brand {
+    color: $colorSecundario !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover {
+    border-bottom: 2px $colorSecundario solid;
+}
+
+.carousel {
+    margin-top: 1em;
+}
+
+.row{
+    margin-top: 1em;
+}
+
+/* Fin del navbar */

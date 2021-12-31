@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+/* Modifico el navbar  */
+.navbar {
+  background-color: #1E70B7 !important;
+  /* height: 70px; */
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px #fff solid;
+}
+
+.carousel {
+  margin-top: 1em;
+}
+
+.row {
+  margin-top: 1em;
+}
+
+/* Fin del navbar */
+/* Footer */
+/* Modifico el footer */
+.footer-izq {
+  color: #fff;
+  margin-left: 5%;
+}
+
+.footer-izq h1 {
+  font-size: 2em;
+}
+
+.footer-izq p {
+  font-size: 1em;
+}
+
+.nav-footer ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+  font-style: italic;
+}
+
+.social i {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin-left: 10%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Fin del footer */
+/* Main Index */
+.prueba {
+  margin-top: 5em;
+}
+
+.partners {
+  margin: 5em 0;
+}
+
+.partnersIconos {
+  margin-top: 5em;
+}
+
+/* Fin main Index */
+/* Main Nosotros */
+.mainNosotros {
+  height: 130em;
+}
+
+/* Inicio seccion 1 main Nosotros */
+.nosotrosText {
+  bottom: 0px !important;
+}
+
+.title {
+  color: #1E70B7 !important;
+}
+
+.empresas {
+  margin-left: 300px;
+}
+
+.description {
+  color: #909193 !important;
+}
+
+.subtitle {
+  font-weight: bold !important;
+}
+
+/* Fin seccion 1 main Nosotros */
+/* Inicio seccion 2 main Nosotros */
+.ADN {
+  background-color: #1E70B7 !important;
+  color: #fff !important;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.tituloAdn {
+  color: #fff !important;
+}
+
+.icono1 {
+  width: 43%;
+}
+
+.icono3 {
+  width: 59%;
+}
+
+.icono4 {
+  width: 47%;
+}
+
+.textoADN h4 {
+  font-weight: bold;
+}
+
+.textoADN h5 {
+  font-weight: bold;
+}
+
+/* Fin seccion 2 main Nosotros */
+/* Inicio seccion 3 main Nosotros */
+.nuestroEquipo {
+  color: #1E70B7;
+  margin: 1em 0;
+}
+
+/* Fin seccion 3 main Nosotros */
+/* Fin main Nosotros */
+.mainContacto {
+  height: 42em;
+}
+
+.form {
+  margin-top: 10em;
+}
+
+.h2contacto {
+  color: #1E70B7;
+}
+
+.btnContacto {
+  background-color: #1E70B7 !important;
+  margin-top: 2em;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .nav-footer a {
+    font-size: 10px;
+  }
+
+  footer {
+    height: 100%;
+  }
+
+  .nav-footer ul {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 780px) {
+  footer {
+    height: 100%;
+  }
+
+  .nav-footer ul {
+    flex-direction: column;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=estilos.css.map */

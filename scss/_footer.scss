@@ -1,0 +1,52 @@
+/* Footer */
+
+/* Modifico el footer */
+
+.footer-izq {
+    color: $colorSecundario;
+    margin-left: 5%;
+}
+
+.footer-izq h1 {
+    font-size: 2em;
+}
+
+.footer-izq p {
+    font-size: 1em;
+}
+
+.nav-footer ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: $colorSecundario;
+    padding: 10px;
+    margin: 0 5px;
+    font-style: italic;
+}
+.social i{
+    text-decoration: none;
+    color: $colorSecundario;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Fin del footer */

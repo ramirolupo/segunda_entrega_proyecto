@@ -1,0 +1,77 @@
+
+/* Main Nosotros */
+.mainNosotros {
+    height: 130em;
+}
+
+
+/* Inicio seccion 1 main Nosotros */
+
+.nosotrosText {
+    bottom: 0px !important;
+}
+
+.title {
+    color: $colorPrincipal !important;
+}
+
+.empresas {
+    margin-left: 300px;
+}
+
+.description {
+    color: #909193 !important;
+}
+
+.subtitle {
+
+    font-weight: bold !important;
+}
+
+/* Fin seccion 1 main Nosotros */
+
+/* Inicio seccion 2 main Nosotros */
+
+.ADN {
+    background-color: $colorPrincipal !important;
+    color: $colorSecundario !important;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.tituloAdn {    
+    color: $colorSecundario !important
+}
+
+.icono1 { 
+    width: 43%;
+}
+
+.icono3 { 
+    width: 59%;
+}
+
+.icono4 { 
+    width: 47%;
+}
+
+.textoADN h4{
+    font-weight: bold;
+}
+
+.textoADN h5{
+    font-weight: bold;
+}
+
+/* Fin seccion 2 main Nosotros */
+
+/* Inicio seccion 3 main Nosotros */
+
+.nuestroEquipo {
+    color: $colorPrincipal;
+    margin: 1em 0;
+}
+
+/* Fin seccion 3 main Nosotros */
+
+/* Fin main Nosotros */
